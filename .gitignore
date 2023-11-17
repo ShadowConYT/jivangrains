@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+/src/assets/LanderVideo.mp4
 # production
 /build
 
