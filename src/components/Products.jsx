@@ -63,7 +63,7 @@ const renderProucts = (card, index) => {
 
 const Products = () => {
   return (
-    <div className='relative pl-40 pr-40 h-screen mt-16 products'>
+    <div className='relative pl-40 pr-40 mt-16 products'>
     <section>
         <h1 className='p-10 text-white font-mont font-extrabold text-center uppercase text-6xl'>Our Products</h1>
 

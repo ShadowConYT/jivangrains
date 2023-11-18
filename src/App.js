@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Lander from './components/Lander';
 import Products from './components/Products';
 
@@ -6,10 +7,12 @@ function App() {
   return (
     <div className="App">
       <Lander />
-      <div>
+      <section>
       <Products />
-      </div>
-      
+      </section>
+      <section>
+        <About />
+      </section>
     </div>
   );
 }
