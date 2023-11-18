@@ -18,3 +18,9 @@ body{
     background-color: rgb(0, 0, 0, 0.5) ;
     border-radius: 200px;
 }
+
+.products{
+    background: linear-gradient(rgba(14, 14, 14, 0.7), rgba(20, 20, 20, 0.6)),url(https://wallpapers.com/images/hd/agriculture-pictures-ppsj59vfqlop02h9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
