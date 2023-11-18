@@ -6,6 +6,11 @@
 body{
     background-color: black;
 }
+
+.card{
+    background: rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+}
 .lv{
     width: 100vw;
 }
