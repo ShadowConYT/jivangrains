@@ -6,8 +6,8 @@ import Contact from '../assets/Contact.png';
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'About Us', href: '#', current: false },
-  { name: 'Our Products', href: '#', current: false },
+  { name: 'About Us', href: '#about', current: false },
+  { name: 'Our Products', href: '#products', current: false },
   { name: 'Contact', href: '#', current: false },
 ]
 

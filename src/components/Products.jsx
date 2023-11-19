@@ -64,7 +64,7 @@ const renderProucts = (card, index) => {
 const Products = () => {
   return (
     <div className='relative md:pl-40 md:pr-40 mt-16 products'>
-    <section>
+    <section id='products'>
         <h1 className='p-10 text-white font-mont font-extrabold text-center uppercase text-xl md:text-6xl'>Our Products</h1>
 
         <h3 className='p-10 text-white font-mont font-extrabold text-center uppercase text-6xl'>RICE</h3>
