@@ -30,8 +30,7 @@ const renderAboutCard = (card, index) => {
 
 const About = () => {
   return (
-    <div id='about'>
-      <section className="about-us-area pt-8 md:pt-0 md:h-screen bg-white pr-5 pl-5 md:pr-32 md:pl-32">
+      <section id='about' className="about-us-area pt-8 md:pt-0 md:h-screen bg-white pr-5 pl-5 md:pr-32 md:pl-32">
         <div className="h-auto align-middle">
             <div className="md:grid md:grid-cols-2 text-black">
                 <div className='flex items-center md:h-screen mr-2'>
@@ -68,8 +67,6 @@ const About = () => {
             </div>
         </div>
     </section>
-
-    </div>
   )
 }
 
