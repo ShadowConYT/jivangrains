@@ -19,7 +19,7 @@ export default function Lander() {
           <button onClick={() => onCliq('products')} id="butt" class="btn-shine">
             <span>Our Products</span>
           </button>
-          <button onClick={() => onCliq('about')} id="butt" class="btn-shine">
+          <button onClick={() => onCliq('contact')} id="butt" class="btn-shine">
             <span>Contact Us</span>
           </button>
         </div>
