@@ -12,14 +12,14 @@ export default function Lander() {
     <div className="h-screen">
       <video src={LanderVideo} autoPlay muted loop className="lv blur-sm absolute h-screen object-cover -z-10"/>
       <Navbar />
-      <div className="mainTxt flex flex-col items-center align-middle justify-center z-10">
+      <div className="mainTxt ml-2 mr-2 md:ml-0 md:mr-0 flex flex-col items-center align-middle justify-center z-10">
         <h1 className="txt text-3xl md:text-8xl text-white font-bold font-mont uppercase tracking-wider">Jivan Grains</h1>
-        <p className="text-white text-lg md:text-3xl">"Harvested with Love, Served with Tradition"</p>
+        <p className="text-white text-md md:text-3xl">"Harvested with Love, Served with Tradition"</p>
         <div className="flex space-x-8 mt-5">
-          <button onClick={() => onCliq('products')} id="butt" class="btn-shine">
+          <button onClick={() => onCliq('products')} id="butt" class="btn-shine text-sm md:text-lg">
             <span>Our Products</span>
           </button>
-          <button onClick={() => onCliq('contact')} id="butt" class="btn-shine">
+          <button onClick={() => onCliq('contact')} id="butt" class="btn-shine text-sm md:text-lg">
             <span>Contact Us</span>
           </button>
         </div>
