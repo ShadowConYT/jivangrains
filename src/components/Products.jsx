@@ -51,11 +51,11 @@ const renderProucts = (card, index) => {
     const additionalClass = isLastitem ? 'col-start-2 col-end-3 mb-10': '';
 
     return(
-        <div key={index} className={`flex justify-center space-x-4 max-w-xl rounded-lg p-5 card ${additionalClass}`}>
-            <img className='w-32' src={card.image} alt={card.title} />
+        <div key={index} className={`flex justify-center space-x-4 max-w-lg rounded-lg p-5 card ${additionalClass}`}>
+            <img className='w-32 object-contain' src={card.image} alt={card.title} />
             <div className='text-white'>
                 <h1 className='text-xl font-mont font-bold uppercase'>{card.title}</h1>
-                <p className='text-sm'>{card.description}</p>
+                <p className='text-xs md:text-sm'>{card.description}</p>
             </div>
         </div>
     )
