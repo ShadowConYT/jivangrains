@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-import LanderVideo from '../assets/LanderVideo.mp4';
 
 /* Onclick scroll to section function */
 function onCliq(section){
