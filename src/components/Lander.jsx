@@ -9,7 +9,7 @@ function onCliq(section){
 export default function Lander() {
   return (
     <div className="h-screen w-screen">
-      <video src={LanderVideo} autoPlay muted loop className="lv blur-sm absolute w-screen h-screen object-cover -z-10"/>
+      <video src="https://videos.pexels.com/video-files/1560989/1560989-hd_1280_720_30fps.mp4" autoPlay muted loop className="lv blur-sm absolute w-screen h-screen object-cover -z-10"/>
       <Navbar />
       <div className="mainTxt ml-2 mr-2 md:ml-0 md:mr-0 flex flex-col items-center align-middle justify-center z-10">
         <h1 className="txt text-3xl md:text-8xl text-white font-bold font-mont uppercase tracking-wider">Jivan Grains</h1>
